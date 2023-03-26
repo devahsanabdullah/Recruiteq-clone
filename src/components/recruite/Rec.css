@@ -1,0 +1,14 @@
+.box {
+
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  margin:20px auto;
+  flex-wrap: wrap;
+}
+.imgbox {
+width: fit-content;
+margin: 20px auto;
+border-radius: 10px;
+  background: linear-gradient(180deg, #3975f1 20.72%, #06184b 96.02%);
+}

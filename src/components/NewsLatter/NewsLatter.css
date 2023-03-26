@@ -1,0 +1,21 @@
+.dotimg{
+  text-align: right;
+  margin:'0px 50px'
+
+}
+.ractangleImg{
+   position:absolute;
+   right:20px;
+   z-index: -1000;
+}
+.blob
+{
+    width:520px;
+    height:280px;
+    border-radius: 100px 40px 40px 180px;
+    background: linear-gradient(180deg, #3975F1 20.72%, #06184B 96.02%);
+}
+.bgbox{
+    background: linear-gradient(180deg, #3975F1 20.72%, #06184B 96.02%);
+    
+}

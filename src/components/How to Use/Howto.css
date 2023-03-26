@@ -1,0 +1,62 @@
+.childBox{
+    position:relative;
+    margin:40px auto
+}
+.childBox .img
+{
+    position: absolute;
+    transform: translate(-40%,-40%);
+    width: 65%;
+    z-index: -10000;
+}
+.grandChildBox
+{
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    position: relative;
+    border-radius: 30px;
+    box-shadow: 0px 0px 4px 4px rgb(240,240,240);
+}
+.grandChildBox .imgdot
+{
+    position:absolute;
+    height:25%;
+    width:25%;
+    left: 0;
+}
+.grandChildBox img
+{
+    width: 80%;
+    margin:0px auto;
+}
+.circle
+{
+    position:absolute;
+    right: 0;
+    transform: translate(15%,-65%);
+    z-index: -1000000;
+}
+
+.bgimg
+{
+    position: absolute;
+    z-index:-1000000;
+    width: 80%;
+    right: 0;
+    top: 15%;
+}
+@media screen AND (max-width:720px) {
+    .childBox .img{
+        width: 60%;
+    }
+    .circle
+    {
+        width:30%;
+    }
+    .bgimg
+    {
+        top:55%;
+        width:100%;
+    }
+}
