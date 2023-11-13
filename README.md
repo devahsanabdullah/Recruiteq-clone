@@ -25,3 +25,4 @@ Recruiteq-Clone aims to replicate some of the key features of a recruiting platf
    ```bash
    git clone https://github.com/your-username/recruiteq-clone.git
    cd recruiteq-clone
+  npm install
