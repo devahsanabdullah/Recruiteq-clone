@@ -9,6 +9,7 @@ Recruiteq-Clone aims to replicate some of the key features of a recruiting platf
 ## Technologies Used
 
 - React.js
+- tailwind
 - Material-UI (Mui)
 - [Any other libraries or tools you're using]
 
@@ -26,3 +27,4 @@ Recruiteq-Clone aims to replicate some of the key features of a recruiting platf
    git clone https://github.com/your-username/recruiteq-clone.git
    cd recruiteq-clone
   npm install
+
